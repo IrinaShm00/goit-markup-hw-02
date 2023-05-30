@@ -37,7 +37,7 @@ body {
         color: var(--main-text-color);
 }
 
-.header-logo{
+.header-logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -51,9 +51,9 @@ body {
     color: var(--title-color);
 }
 
-.header-menu-item{
-        font-family: 'Roboto';
-        font-weight: 500;
+
+.header-menu-link {
+    font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -61,8 +61,8 @@ body {
 }
 
 
-
-.header-soc-link:hover, .header-soc-link:focus{
+.header-soc-link:hover, 
+.header-soc-link:focus {
 color: #404BBF
 }
 
@@ -79,7 +79,8 @@ font-style: normal;
         color: var(--main-text-color);
 }
 
-.addres-soc-link:hover, .addres-soc-link:focus {
+.addres-soc-link:hover, 
+.addres-soc-link:focus {
     color: var(--hover-color);
 }
 
