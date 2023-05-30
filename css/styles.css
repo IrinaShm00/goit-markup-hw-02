@@ -79,8 +79,8 @@ font-style: normal;
         color: #434455;
 }
 
-.address-soc-link:hover, 
-.address-soc-link:focus {
+.address-list-link:hover, 
+.address-list-link:focus {
     color: #404BBF;
 }
 
