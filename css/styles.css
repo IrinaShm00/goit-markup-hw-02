@@ -109,7 +109,8 @@ font-style: normal;
         cursor: pointer;
 }
 
-.hero-button:hover, .hero-button:focus {
+.hero-button:hover, 
+.hero-button:focus {
     background: var(--hover-color);
 }
 
@@ -128,7 +129,8 @@ font-style: normal;
         cursor: pointer;
 }
 
-.filters-button:hover, .filters-button:focus {
+.filters-button:hover,
+.filters-button:focus {
 background-color: var(--hover-color);
 color: var(--second-text-color);
 }
