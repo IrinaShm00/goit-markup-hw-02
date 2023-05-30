@@ -57,7 +57,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--title-color);
 }
 
 
@@ -76,12 +76,12 @@ font-style: normal;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--main-text-color);
+        color: #434455;
 }
 
 .address-soc-link:hover, 
 .address-soc-link:focus {
-    color: var(--hover-color);
+    color: #404BBF;
 }
 
 
