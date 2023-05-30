@@ -57,20 +57,20 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #2E2F42;
 }
 
 
 .header-menu-link:hover, 
 .header-menu-link:focus {
-color: #434455;
+color: #404BBF;
 }
 
 .address {
 font-style: normal;
 }
 
-.addres-soc-link {
+.address-soc-link {
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -79,8 +79,8 @@ font-style: normal;
         color: var(--main-text-color);
 }
 
-.addres-soc-link:hover, 
-.addres-soc-link:focus {
+.address-soc-link:hover, 
+.address-soc-link:focus {
     color: var(--hover-color);
 }
 
