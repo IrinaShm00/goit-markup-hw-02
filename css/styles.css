@@ -175,11 +175,11 @@ background-color: var(--second-text-color);
 }
 
 .team-item {
-    background-color: var(--title-color);
+background-color: var(--second-text-color);
 }
 
 .footer {
-    background-color: var(--title-color);
+background-color: var(--title-color);
 }
 
 .footer-logo {
