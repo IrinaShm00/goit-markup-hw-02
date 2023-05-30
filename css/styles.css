@@ -61,8 +61,8 @@ body {
 }
 
 
-.header-soc-link:hover, 
-.header-soc-link:focus {
+.header-menu-link:hover, 
+.header-menu-link:focus {
 color: var(--hover-color);
 }
 
