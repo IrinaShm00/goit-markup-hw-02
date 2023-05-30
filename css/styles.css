@@ -84,14 +84,6 @@ font-style: normal;
     color: #404BBF;
 }
 
-.address-list-link {
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--main-text-color);
-}
-
-
-
 .hero {
  background-color: var(--title-color);
 }
