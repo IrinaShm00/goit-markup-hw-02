@@ -46,9 +46,8 @@ ul {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--title-color)
+    color: var(--title-color);
     margin-bottom: 8px;
-    
 }
 
 .text {
@@ -85,7 +84,7 @@ ul {
 
 .header-menu {
     display: flex;
-    gap: 40px
+    gap: 40px;
 }
 
 .header-logo span {
@@ -202,11 +201,9 @@ width: 1158px;
     display: flex;
     gap: 24px;
     justify-content: center;
-    margin-top: 96px;
     margin-bottom: 72px;
 }
 
-.buttons-list-item {}
 
 .filters-button {
     font-family: "Roboto", sans-serif;
@@ -357,6 +354,7 @@ border-radius: 0px 0px 4px 4px;
     color: #2E2F42;
     padding-bottom: 32px;
     margin-bottom: 8px;
+    text-align: center;
     
 
 }
@@ -366,6 +364,8 @@ border-radius: 0px 0px 4px 4px;
     font-size: 16px;
     letter-spacing: 0.02em;
     background-color: #FFFFFF;
+    text-align: center;
+
 }
 
 /* footer */
