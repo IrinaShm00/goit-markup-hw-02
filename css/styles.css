@@ -57,11 +57,13 @@ ul {
     color: var(--main-text-color);
 }
 
+
 /* header */
 
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -101,6 +103,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--title-color);
+    padding: 24px 0;
 }
 
 
@@ -131,6 +134,10 @@ font-style: normal;
     display: flex;
     margin-left: 40px;
 gap: 40px;
+}
+
+.img {
+    display: block;
 }
 
 /* hero */
@@ -181,6 +188,7 @@ width: 1158px;
         border: none;
         display: block;
         padding: 16px 32px;
+        min-width: 169px;
 }
 
 .hero-button:hover, 
@@ -219,6 +227,7 @@ width: 1158px;
 .filters-button:focus {
 background-color: var(--hover-color);
 color: var(--second-text-color);
+border: 1px solid transparent;
 }
 
 .projects-menu {
@@ -380,4 +389,8 @@ padding-bottom: 100px;
         color: var(--button-color);
         width: 264px;
         padding-top: 16px;
+}
+.footer-logo link {
+display: inline-block;
+margin-bottom: 16px;
 }
