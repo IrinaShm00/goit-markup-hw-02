@@ -20,8 +20,7 @@ p, h1,h2,h3,h4,h5,h6 {
 }
 
 ul {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
     padding-left: 0;
 }
 
@@ -46,9 +45,8 @@ ul {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--title-color)
+    color: var(--title-color);
     margin-bottom: 8px;
-    
 }
 
 .text {
@@ -95,7 +93,7 @@ ul {
 .header-navigation {
     display: flex;
     align-items: center;
-    flex-grow: 1;
+    margin-right: auto;
 }
 
 .header-menu-link {
@@ -105,6 +103,7 @@ ul {
     letter-spacing: 0.02em;
     color: var(--title-color);
     padding: 24px 0;
+    display: block;
 }
 
 
@@ -115,6 +114,13 @@ color: #404BBF;
 
 .address {
 font-style: normal;
+display: flex;
+}
+
+.adress-list {
+    display: flex;
+        align-items: center;
+        gap: 40px;
 }
 
 .address-list-link {
@@ -131,11 +137,6 @@ font-style: normal;
     color: #404BBF;
 }
 
-.address-soc {
-    display: flex;
-    margin-left: 40px;
-gap: 40px;
-}
 
  img {
     display: block;
@@ -233,11 +234,11 @@ border: 1px solid transparent;
 .projects-menu {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    row-gap: 48px;
 }
 
 .project-item {
-    padding-bottom: 48px;
+    width: calc((100% - 48px) / 3);
 }
 
 /* benefits */
@@ -275,7 +276,6 @@ border: 1px solid transparent;
     color: var(--title-color);
     text-transform: capitalize;
     margin-bottom: 72px;
-    min-width: 323px;
     margin: 0 auto;
 }
        
@@ -315,9 +315,6 @@ border: 1px solid transparent;
 .team {
     background: #F4F4FD;
     padding: 120px 0;
-}
-
-.team-container {
 }
 
 .team-title {
@@ -366,6 +363,7 @@ border-radius: 0px 0px 4px 4px;
     font-size: 16px;
     letter-spacing: 0.02em;
     background-color: #FFFFFF;
+    line-height: 1.5;
 }
 
 /* footer */
