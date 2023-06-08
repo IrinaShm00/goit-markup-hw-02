@@ -130,7 +130,7 @@ font-style: normal;
     color: #404BBF;
 }
 
-.address-soc {
+.address-list {
     display: flex;
     margin-left: 40px;
     gap: 40px;
