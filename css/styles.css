@@ -280,6 +280,7 @@ border: 1px solid transparent;
 .products-list {
     display: flex;
     gap: 24px;
+    margin-bottom: 72px
 }
 
 .list{}
