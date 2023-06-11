@@ -269,7 +269,7 @@ border: 1px solid transparent;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.02em;
     color: var(--title-color);
     text-transform: capitalize;
     margin-bottom: 72px;
@@ -281,7 +281,6 @@ border: 1px solid transparent;
 .products-list {
     display: flex;
     gap: 24px;
-    margin-bottom: 72px
 }
 
 .list{}
@@ -336,7 +335,7 @@ border: 1px solid transparent;
 .team-list {
 display: flex;
 gap: 24px;
-padding-bottom: 120px;
+
 }
 
 .team-item {
@@ -378,7 +377,6 @@ padding-bottom: 100px;
         letter-spacing: 0.02em;
         color: var(--button-color);
         width: 264px;
-        padding-top: 16px;
 }
 .footer-logo link {
 margin-bottom: 16px;
